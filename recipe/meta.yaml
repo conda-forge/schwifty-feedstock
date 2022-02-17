@@ -27,12 +27,17 @@ requirements:
     - python >=3.7
 
 test:
+  source_files:
+    - tests
   imports:
     - schwifty
+    - schwifty.checksum
   commands:
     - pip check
+    - pytest -vvv --capture=tee-sys tests
   requires:
     - pip
+    - pytest
 
 about:
   home: http://github.com/mdomke/schwifty
