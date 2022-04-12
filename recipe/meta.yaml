@@ -19,6 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools >=45
+    - setuptools_scm >=6.0
   run:
     - importlib_metadata
     - importlib_resources
