@@ -1,5 +1,5 @@
 {% set name = "schwifty" %}
-{% set version = "2022.6.2" %}
+{% set version = "2022.6.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/schwifty-{{ version }}.tar.gz
-  sha256: bab5d8117ed0165d87c280b04d28fef374d840e91fa9b73e68625a070295a2b5
+  sha256: 2019047dceac2a4f5f0c5645ff85df725e066cc3eba3be5eec39ab17de004655
 
 build:
   noarch: python
