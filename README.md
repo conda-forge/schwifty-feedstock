@@ -1,11 +1,11 @@
-About schwifty
-==============
+About schwifty-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/schwifty-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/mdomke/schwifty
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/schwifty-feedstock/blob/main/LICENSE.txt)
 
 Summary: Validate/generate IBANs and BICs
 
