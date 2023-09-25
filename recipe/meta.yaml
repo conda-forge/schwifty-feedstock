@@ -18,15 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
-    - setuptools >=45
-    - setuptools_scm >=6.0
+    - python >=3.8
+    - hatchling
+    - hatch-vcs
   run:
-    - importlib_metadata
     - importlib_resources
     - iso3166
     - pycountry
-    - python >=3.7
+    - python >=3.8
 
 test:
   source_files:
