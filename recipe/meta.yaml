@@ -39,6 +39,7 @@ test:
   requires:
     - pip
     - pytest
+    - pydantic >=2.0
 
 about:
   home: http://github.com/mdomke/schwifty
