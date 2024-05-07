@@ -22,8 +22,7 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - importlib_resources
-    - iso3166
+    - importlib_resources >=5.10
     - pycountry
     - python >=3.8
 
@@ -32,7 +31,6 @@ test:
     - tests
   imports:
     - schwifty
-    - schwifty.checksum
   commands:
     - pip check
     - pytest -vvv --capture=tee-sys tests
