@@ -22,9 +22,11 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - importlib_resources >=5.10
-    - pycountry
     - python >=3.8
+    - importlib_resources >=5.10
+    - typing-extensions >=4.0.1
+    - pycountry
+    - rstr
 
 test:
   source_files:
