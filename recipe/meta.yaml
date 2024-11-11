@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/schwifty-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/schwifty-{{ version }}.tar.gz
   sha256: d0aaed03168403b433de515d663df09516941ae70152850da3afe3c242255f6a
 
 build:
@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - importlib_resources >=5.10
     - typing-extensions >=4.0.1
     - pycountry
@@ -40,6 +40,7 @@ test:
     - pip
     - pytest
     - pydantic >=2.0
+    - python {{ python_min }}
 
 about:
   home: http://github.com/mdomke/schwifty
