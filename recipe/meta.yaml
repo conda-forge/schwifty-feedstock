@@ -23,8 +23,8 @@ requirements:
     - hatch-vcs
   run:
     - python >={{ python_min }}
-    - importlib_resources >=5.10
-    - typing-extensions >=4.0.1
+    - typing_extensions >=4.0.1
+    - importlib-resources >=5.10
     - pycountry
     - rstr
 
