@@ -1,5 +1,6 @@
 {% set name = "schwifty" %}
 {% set version = "2025.7.0" %}
+{% set python_min = "3.10" %}
 
 
 package:
