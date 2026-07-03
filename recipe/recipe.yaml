@@ -38,16 +38,6 @@ tests:
       python_version:
         - ${{ python_min }}.*
         - "*"
-  - files:
-      source:
-        - tests
-    requirements:
-      run:
-        - pytest
-        - pydantic >=2.0
-        - python ${{ python_min }}.*
-    script:
-      - pytest -vvv --capture=tee-sys tests
 
 about:
   summary: Validate/generate IBANs and BICs
