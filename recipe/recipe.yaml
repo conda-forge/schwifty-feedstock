@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: schwifty
-  version: "2026.10.1"
+  version: "2026.11.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/schwifty-${{ version }}.tar.gz
-  sha256: 280558cb661fdbcf5099f7c99eae47ed37a4f656b5b3dd6ea4efcf865a09f372
+  sha256: b006e0759a761a9444cf179b8da58590e0dc92b39e736da6be22746e766480f6
 
 build:
   number: 0
